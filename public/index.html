@@ -18,11 +18,11 @@
       document.loadWidgets([
         {
           instanceId: 'example-emojis',
-          language: 'en',
+          language: null,
           onRenderFinish: (domElement) =>
             console.debug('The widget has finished rendering: ', domElement),
-          origin: 'https://js-widgets.github.io',
-          renderFunctionName: 'renderExampleWidget',
+          origin: null,
+          renderFunctionName: 'renderExampleEmojis',
         },
       ]);
     </script>

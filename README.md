@@ -2,6 +2,11 @@
 
 This an example application with emojis!
 
+This example is a merge between these projects:
+
+- [Calculator](https://github.com/ahfarmer/calculator)
+- [Widget Example](https://github.com/js-widgets/example-widget)
+
 [View the demo](https://js-widgets.github.io/example-emojis/index.html)
 
 ## Current Maintainer(s)
