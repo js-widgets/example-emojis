@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: npm run-script build
         env:
-          PUBLIC_URL: 'https://js-widgets.github.io/example-widget'
+          PUBLIC_URL: 'https://js-widgets.github.io/example-emojis'
       - name: Deploy to GitHub Pages
         if: ${{ success() }}
         uses: crazy-max/ghaction-github-pages@v2

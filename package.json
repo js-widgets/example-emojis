@@ -1,12 +1,13 @@
 {
-  "name": "@js-widgets/example-widget",
+  "name": "@js-widgets/example-emojis",
   "private": false,
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://js-widgets.github.io/example-widget",
+  "homepage": "https://js-widgets.github.io/example-emojis",
   "dependencies": {
+    "clipboard": "^2.0.4",
     "postcss-wrap": "^0.0.4",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -21,8 +22,8 @@
     "build:gh-pages": "npm run build && gh-pages -d build",
     "test": "craco test",
     "test:ci": "craco test --watchAll=false",
-    "lint:fix": "eslint --fix . && prettier --write .",
-    "lint": "eslint . && prettier --check .",
+    "lint:fix": "prettier --write .",
+    "lint": "prettier --check .",
     "use-typescript": "node src/core/scripts/use-typescript.js"
   },
   "devDependencies": {
