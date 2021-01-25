@@ -6,10 +6,10 @@
     "css/main.css.map": "https://js-widgets.github.io/example-emojis/css/main.css.map",
     "index.html": "https://js-widgets.github.io/example-emojis/index.html",
     "js/main.js.LICENSE.txt": "https://js-widgets.github.io/example-emojis/js/main.js.LICENSE.txt",
-    "static/css/main.f58d7633.css.map": "https://js-widgets.github.io/example-emojis/static/css/main.f58d7633.css.map"
+    "static/css/main.7c29b23a.css.map": "https://js-widgets.github.io/example-emojis/static/css/main.7c29b23a.css.map"
   },
   "entrypoints": [
-    "static/css/main.f58d7633.css",
+    "static/css/main.7c29b23a.css",
     "css/main.css",
     "js/main.js"
   ]
