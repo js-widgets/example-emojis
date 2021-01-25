@@ -1,16 +1,6 @@
 {
   "availableTranslations": ["en"],
   "description": "This example contains emojis.",
-  "settingsSchema": {
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "fields": {
-        "type": "object",
-        "properties": {}
-      }
-    }
-  },
   "externalPeerDependencies": {
     "react": {
       "src": "https://unpkg.com/react@^17/umd/react.production.min.js"
